@@ -1,0 +1,5 @@
+.SignupStyle {
+  height: 100vh;
+  background: url("../Login/Assets/LoginBackground.jpg");
+  background-size: cover;
+}

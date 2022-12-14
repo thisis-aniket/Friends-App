@@ -1,0 +1,28 @@
+.toolbar {
+  background: #801edb;
+}
+.avatarImageDiv {
+  display: flex;
+  justify-content: center;
+}
+.avatarImage {
+  border-radius: 10px;
+}
+.editCardHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+}
+.uploadBtn {
+  display: flex;
+  justify-content: center;
+}
+.avatarImage {
+  height: 100px;
+  width: 100px;
+}
+.inputImageFileDiv {
+  display: flex;
+  justify-content: center;
+}

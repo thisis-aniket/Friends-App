@@ -1,0 +1,130 @@
+.cardDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
+  margin: 2rem auto;
+  gap: 2rem;
+  grid-auto-rows: 1fr;
+}
+
+@media (max-width: 600px) {
+  .cardDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .cardDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+  }
+
+  .modalDeleteModalPaper {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+  }
+
+  .modalDeleteModalPaper {
+    width: 30rem;
+  }
+}
+
+.navbar-stack {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+}
+
+.stack {
+  text-align: center;
+}
+
+.stack img {
+  border-radius: 5px;
+  height: 128px;
+  width: 128px;
+}
+
+.btnStack {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.modalEditModalPaper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalEditModalPaper h2 {
+  padding: 0.5rem 0;
+}
+
+.editForm {
+  padding: 0 1rem 1rem;
+}
+
+.editBtnGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.modalDeleteModalPaper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  padding: 0 1rem 1rem;
+}
+
+body {
+  background: url("../Login/Assets/DashboardBackground.jpg");
+  background-size: cover;
+}
+
+.errorModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+}
+
+.errorModal .errorModalHeaders {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.errorModal .errorModalBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+.DeleteHeader {
+  display: flex;
+  align-items: center;
+}
+.avatarImageDiv {
+  padding: 0;
+}
